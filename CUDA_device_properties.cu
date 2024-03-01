@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "cuda.h"
-#include "cuda_runtime.h"﻿
- 
+#include <cuda.h>
+#include <cuda_runtime.h>
+
 // Print device properties
 void printDevProp(cudaDeviceProp devProp)
 {
